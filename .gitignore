@@ -1,0 +1,10 @@
+.venv
+__pychache__
+dataset
+final
+results
+.idea
+athena_helios_scripts
+legacy_results
+paper_plots
+legacy_code
