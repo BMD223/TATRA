@@ -1,9 +1,5 @@
 # TATRA: Training-Free Instance-Adaptive Prompting Through Rephrasing and Aggregation
 
-**Bartosz Dziuba\*¹, Kacper Kuchta\*¹, Paweł Batorski\*², Przemysław Spurek¹³, Paul Swoboda²**
-
-*arXiv:submit/7240589 [cs.AI] 6 Feb 2026*
-
 ## Abstract
 
 Large Language Models (LLMs) have improved substantially alignment, yet their behavior remains highly sensitive to prompt phrasing. This brittleness has motivated automated prompt engineering, but most existing methods (i) require a task-specific training set, (ii) rely on expensive iterative optimization to produce a single dataset-level prompt, and (iii) must be rerun from scratch for each new task. We introduce TATRA, a dataset-free prompting method that constructs instance-specific few-shot prompts by synthesizing on-the-fly examples to accompany a user-provided instruction. TATRA requires no labeled training data and avoids task-specific optimization loops, while retaining the benefits of demonstration-based prompting. Across standard text classification benchmarks, TATRA matches or improves over strong prompt-optimization baselines that depend on training data and extensive search. On mathematical reasoning benchmarks, TATRA achieves state-of-the-art performance on GSM8K and DeepMath, outperform-ing methods that explicitly optimize prompts on those tasks. Our results suggest that per-instance construction of effective in-context examples is more important than running long, expensive op-timization loops to produce a single prompt per task.
